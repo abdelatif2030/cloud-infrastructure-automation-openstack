@@ -1,0 +1,7 @@
+huaweicloudsdkcore
+huaweicloudsdkecs
+huaweicloudsdkevs
+huaweicloudsdkeip
+huaweicloudsdkvpc
+
+pip install -r requirements.txt
