@@ -5,16 +5,15 @@ import ipaddress
 # 1️⃣ Connect to OpenStack (NEW credentials)
 # -----------------------------
 conn = openstack.connect(
-    auth_url="https://iam-apigateway-proxy.p1xdh.eg/v3",
-    project_id="ffbf084c7bd44837a8ca4fcbddb8abb7",
-    username="C_test_OMteam_Islam",
-    password="Huaweidap12#$",
-    user_domain_name="C_test_OMteam",
-    project_domain_name="C_test_OMteam",
-    region_name="eg-p1xdh",
-    identity_interface="public",
+    auth_url="",
+    project_id="",
+    username="",
+    password="",
+    user_domain_name="",
+    project_domain_name="",
+    region_name="",
+    identity_interface="",
     verify=False
-)
 
 # -----------------------------
 # 2️⃣ Helper function
