@@ -5,13 +5,13 @@ import urllib3
 urllib3.disable_warnings()
 
 conn = openstack.connection.Connection(
-    auth_url="https://iam-apigateway-proxy.p1xdh.eg/v3",
-    project_id="ffbf084c7bd44837a8ca4fcbddb8abb7",
-    username="C_test_OMteam_Islam",
-    password="Huaweidap12#$",
-    user_domain_name="C_test_OMteam",
-    project_domain_name="C_test_OMteam",
-    region_name="eg-p1xdh",
+    auth_url="",
+    project_id="",
+    username="",
+    password="",
+    user_domain_name="",
+    project_domain_name="",
+    region_name="",
 
     # important for HCS
     image_api_version='2',
